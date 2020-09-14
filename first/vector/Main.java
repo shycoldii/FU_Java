@@ -9,7 +9,6 @@ public class Main {
         double x2 = 4.5;
         double y2 = 4;
         double z2 = 6;
-        // hello
 
         Scanner scanner = new Scanner(System.in);
         //double test = scanner.nextDouble();

@@ -16,18 +16,18 @@ public class collection {
          */
         text = text.toLowerCase();
         int[] result = new int['я'-'a'+1];
-        System.out.println(Arrays.toString(result));
-        System.out.println(result.length);
-        System.out.println((int) 'а');
+        //System.out.println(Arrays.toString(result));
+        //System.out.println(result.length);
+        //System.out.println((int) 'а');
         for(int i=0; i< text.length(); i++){
             char ch = text.charAt(i); //символ по индексу
             if (ch >= 'a' && ch<='я'){
                 result[ch-'а']++;
             }
         }
-        for (int i=0; i< 32;i++){
-            System.out.println((char)(i+'а')+" = "+result[i]);
-        }
+        //for (int i=0; i< 32;i++){
+           // System.out.println((char)(i+'а')+" = "+result[i]);
+        //}
 
     }
 
@@ -69,6 +69,29 @@ public class collection {
         }
         return resultMap;
     }
-
+    public static ArrayList<Integer> add_to_ArrayList(ArrayList<Integer> list){
+      for(int i=0; i<1000000; i++){
+          list.add((int) (Math.random()*100));
+      }
+      //System.out.println(list.toString());
+      return list;
+    }
+    public static LinkedList<Integer> add_to_LinkedList(LinkedList<Integer> list){
+        for(int i=0; i<1000000; i++){
+            list.add((int) (Math.random()*100));
+        }
+        //System.out.println(list.toString());
+        return list;
+    }
+    public static int randomItemArrayList(ArrayList<Integer> mylist) {
+        Random rand = new Random();
+        Integer randomInt = mylist.get(rand.nextInt(mylist.size()));
+        return randomInt;
+    }
+    public static int randomItemLinkedList(LinkedList<Integer> mylist) {
+        Random rand = new Random();
+        Integer randomInt = mylist.get(rand.nextInt(mylist.size()));
+        return randomInt;
+    }
     }
 

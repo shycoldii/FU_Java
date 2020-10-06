@@ -40,7 +40,7 @@ public class collection {
         for(int i=0;i<text.length();i++){
             char ch = text.charAt(i);
             if ((ch >='a' && ch<='я')|| ch == 'ё'){
-                map.compute(ch,((character, integer) -> integer == null ? 1 : integer+1));
+                map.compute(ch,((character, r) -> r == null ? 1 : r+1));
                 //вставляем ключ ch в map  и значения integer
             }
         }

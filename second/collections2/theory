@@ -1,0 +1,117 @@
+int array[][];
+array = new int[10][];
+array[0] = new int[9];
+
+List<Integer>[] array;
+array = new List<Integer>[10];
+// of you can do "new ArrayList<Integer>(the desired size);" for all of the following
+array[0] = new ArrayList<Integer>();
+
+
+А теперь что такое Т ?? T-параметры типа (также называемые переменными типа); разделенные угловыми скобками (<>),
+ следует за именем класса.
+T-это просто символ, как и имя переменной (может быть любым именем), объявленное при записи файла класса.
+Позже это T будет заменено на
+допустимое имя класса при инициализации ( HashMap<String> map = new HashMap<String>(); )
+
+например) class name<T1, T2, ..., Tn>
+
+Таким образом, Class<T> представляет собой объект класса определенного типа класса ' T '.
+
+
+Еще один вариант обхода двумерного массива
+private class ElementsIterator implements Iterator<T> {
+
+    T[][] value;
+    private int cursor = 0;
+
+    @Override
+    public boolean hasNext() {
+        return cursor != size;
+    }
+
+    @Override
+    public T next() {
+        //Равен нулю каждый раз при входе в метод.
+        int nextCursor = 0;
+
+        for (T x[]: value) {
+            for (T y : x) {
+                //сброшенный nextCursor поднимается
+                //до уровня текущей позиции cursor
+                //и отдает нужный элемент.
+                if (nextCursor++ == cursor) {
+                    cursor++;
+                    return y;
+                }
+            }
+        }
+        //Если перед вызовом next()
+        //проверять есть ли элементы,
+        //то сюда у нас программа не дойдет.
+        throw new NoSuchElementException();
+    }
+}
+
+
+Еще вариант:
+public class IteratorFor2DArray implements Iterator {
+
+    private int[][] data;
+    private int i, j;
+
+    public IteratorFor2DArray(int[][] data) {
+        this.data = data;
+    }
+
+    @Override
+    public Integer next() {
+        if (!hasNext()) {
+            throw new NoSuchElementException();
+        }
+        int element = data[i][j];
+        j++;
+        while (i < data.length && j >= data[i].length) {
+            j = 0;
+            i++;
+        }
+        return element;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return (i < data.length && j < data[i].length);
+    }
+}
+
+
+Итератор по одномерному массиву:
+class ArrayIterator<T> implements Iterator<T>{
+
+    private T[] array;
+    private int index = 0;
+
+    public ArrayIterator(T[] array) {
+        this.array = array;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return index < array.length;
+    }
+
+    @Override
+    public T next() {
+        if(!hasNext())
+            throw new NoSuchElementException();
+        return array[index++];
+    }
+}
+
+
+Set keys = map.keySet();
+for (String key: keys) {
+//действия с ключом
+}
+
+

@@ -1,10 +1,17 @@
 package ControlWork1;
 
 public class Mercedes extends Car{
-    private int height;
+    private final int year;
 
-    public Mercedes(String color, int maxSpeed, int currentSpeed, String box, int price, int height) {
+    public Mercedes(String color, int maxSpeed, int currentSpeed, String box, int price, int year) {
         super(color, box, maxSpeed, currentSpeed, price);
-        this.height = height;
+        this.year = year;
     }
+   @Override
+    public  String getName(){
+        return "Mercedes";
+   }
+   public int getYear(){
+        return this.year;
+   }
 }

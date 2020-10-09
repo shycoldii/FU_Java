@@ -29,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -43,12 +44,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="second.classwork1.collectionwithoutdubl.HelloWorld" />
       <module name="main_rep" />
@@ -101,6 +102,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third.converter.Main" />
+      <module name="main_rep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="third.converter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third.button.Main" />
+      <module name="main_rep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="third.button.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="second.classwork1.Main" />
       <module name="main_rep" />
@@ -131,8 +158,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -177,10 +206,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="567" y="234" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1474.864@62.0.1474.864" timestamp="1602003717306" />
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1601966215960">
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1602229072359">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864@62.0.1474.864" timestamp="1601966215960" />
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864@62.0.1474.864" timestamp="1602229072359" />
     <state x="529" y="226" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601970818690">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -189,30 +218,30 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="503" y="357" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/62.0.1474.864@62.0.1474.864" timestamp="1601820940780" />
-    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1601970862945">
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1602229895810">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="580" y="187" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1601970862945" />
+    <state x="580" y="187" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1602229895810" />
     <state x="678" y="330" key="Github.ShareDialog" timestamp="1599991061072">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="678" y="330" key="Github.ShareDialog/62.0.1474.864@62.0.1474.864" timestamp="1599991061072" />
-    <state width="1431" height="225" key="GridCell.Tab.0.bottom" timestamp="1602002426254">
+    <state width="1431" height="225" key="GridCell.Tab.0.bottom" timestamp="1602229218265">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1602002426254" />
-    <state width="1431" height="225" key="GridCell.Tab.0.center" timestamp="1602002426254">
+    <state width="1431" height="225" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1602229218265" />
+    <state width="1431" height="225" key="GridCell.Tab.0.center" timestamp="1602229218265">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1602002426254" />
-    <state width="1431" height="225" key="GridCell.Tab.0.left" timestamp="1602002426253">
+    <state width="1431" height="225" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1602229218265" />
+    <state width="1431" height="225" key="GridCell.Tab.0.left" timestamp="1602229218265">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1602002426253" />
-    <state width="1431" height="225" key="GridCell.Tab.0.right" timestamp="1602002426254">
+    <state width="1431" height="225" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1602229218265" />
+    <state width="1431" height="225" key="GridCell.Tab.0.right" timestamp="1602229218265">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1602002426254" />
+    <state width="1431" height="225" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1602229218265" />
     <state width="1431" height="277" key="GridCell.Tab.1.bottom" timestamp="1601969482027">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -229,10 +258,10 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state width="1431" height="277" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1601969482027" />
-    <state x="308" y="14" key="SettingsEditor" timestamp="1601970910399">
+    <state x="308" y="14" key="SettingsEditor" timestamp="1602229896517">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="308" y="14" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1601970910399" />
+    <state x="308" y="14" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1602229896517" />
     <state x="107" y="0" width="1001" height="597" key="dock-window-1" timestamp="1601966476193">
       <screen x="62" y="0" width="1474" height="864" />
     </state>

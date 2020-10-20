@@ -12,5 +12,7 @@ public class Main {
             }
         });
         System.out.println(Arrays.toString(newarray));
+        Filt2.fill(newarray,s-> s+"!");
+        System.out.println(Arrays.toString(newarray));
     }
 }

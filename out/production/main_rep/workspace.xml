@@ -28,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (6)">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="second.classwork1.collectionwithoutdubl.HelloWorld" />
       <module name="main_rep" />
@@ -128,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="second.classwork1.Main" />
+    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="third.stringbuilder.Main" />
       <module name="main_rep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="second.classwork1.*" />
+          <option name="PATTERN" value="third.stringbuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (6)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -226,22 +226,22 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="678" y="330" key="Github.ShareDialog/62.0.1474.864@62.0.1474.864" timestamp="1599991061072" />
-    <state width="1431" height="225" key="GridCell.Tab.0.bottom" timestamp="1602229218265">
+    <state width="1431" height="225" key="GridCell.Tab.0.bottom" timestamp="1602230589024">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1602229218265" />
-    <state width="1431" height="225" key="GridCell.Tab.0.center" timestamp="1602229218265">
+    <state width="1431" height="225" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1602230589024" />
+    <state width="1431" height="225" key="GridCell.Tab.0.center" timestamp="1602230589024">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1602229218265" />
-    <state width="1431" height="225" key="GridCell.Tab.0.left" timestamp="1602229218265">
+    <state width="1431" height="225" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1602230589024" />
+    <state width="1431" height="225" key="GridCell.Tab.0.left" timestamp="1602230589024">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1602229218265" />
-    <state width="1431" height="225" key="GridCell.Tab.0.right" timestamp="1602229218265">
+    <state width="1431" height="225" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1602230589024" />
+    <state width="1431" height="225" key="GridCell.Tab.0.right" timestamp="1602230589024">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="225" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1602229218265" />
+    <state width="1431" height="225" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1602230589024" />
     <state width="1431" height="277" key="GridCell.Tab.1.bottom" timestamp="1601969482027">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
@@ -270,9 +270,9 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="240" y="53" key="new project wizard/62.0.1474.864@62.0.1474.864" timestamp="1601969685959" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1601967032078">
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1602869698405">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1601967032078" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1602869698405" />
   </component>
 </project>

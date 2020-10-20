@@ -5,12 +5,16 @@ public class Main {
      //1 задача
      UndoableStringBuilder und = new UndoableStringBuilder();
      und.append("asdfg");
+     System.out.println("Выглядело: "+und.toString());
      und.append("a");
-     System.out.println(und.toString());
+     System.out.println("Добавили символ: "+und.toString());
      und.undo();
+     System.out.println("Возвращаемся к предыдущему действию...");
      System.out.println(und.toString());
+     System.out.println("Поменяем символ s на f: ");
      und.replace(1,2,"f");
      System.out.println(und.toString());
+     System.out.println("Возвращаемся к предыдущему действию...");
      und.undo();
      System.out.println(und.toString());
 

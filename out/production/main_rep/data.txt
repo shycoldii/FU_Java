@@ -1,0 +1,5 @@
+5 Welwet 80000
+4 Kedr 30000
+3 Alexandrov 20000
+1 Ivanov 20000
+2 Petrov 120

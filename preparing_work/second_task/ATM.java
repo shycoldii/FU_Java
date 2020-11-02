@@ -2,6 +2,9 @@ package preparing_work.second_task;
 
 
 public class ATM extends Payment{
+    /**
+     * Реализация класса Банкомата, принимающего карту на вход
+     */
     private Card card;
     private final int atm_id = 1;
     ATM(Card card){

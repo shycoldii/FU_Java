@@ -1,6 +1,10 @@
 package preparing_work.second_task;
 
 public abstract class Card {
+    /**
+     *
+     * Родительский абстрактный класс с методами пополнения баланса/снятия с баланса и получения информации
+     */
     public abstract int  check_status();
     public abstract int getType();
     public abstract int getInfo();

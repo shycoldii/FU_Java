@@ -1,10 +1,14 @@
 package preparing_work.second_task;
 
 public  class Fix_card extends Card {
+    /**
+     * Наследник класса карты с реализацией своих методов (социальная карта)
+     */
     private int type;
     private boolean status;
 
     public Fix_card(int type, boolean status){
+        //Тип - 1..3 в зависимости от тарифа, статус - активна/нет
          this.type = type;
          this.status = status;
     }
@@ -33,6 +37,7 @@ public  class Fix_card extends Card {
 
     @Override
     public void increase() {
+        //повышение статуса на "активна" при оплате
           setStatus(true);
     }
 

@@ -1,11 +1,17 @@
 package preparing_work.second_task;
 
 public class One_pay_Card extends Card{
+    /**
+     * Реализация родительского класса Карты с использованием своих методов (карта Тройка)
+     */
     private int balance;
     private int number_of_trips;
     private int type;
 
     public One_pay_Card(int type, int balance, int number_of_trips){
+        /**
+         * Баланс - текущий баланс на карте, number_of_trips - количество поездок на карте, type - 4 (Тройка)
+         */
         this.balance = balance;
         this.number_of_trips = number_of_trips;
         this.type = type;

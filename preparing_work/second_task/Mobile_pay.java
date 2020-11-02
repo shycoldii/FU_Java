@@ -1,6 +1,9 @@
 package preparing_work.second_task;
 
 public class Mobile_pay extends Payment{
+    /**
+     * Реализация класса мобильного приложения
+     */
     private Card card;
     private final int mobile_id = 2;
     Mobile_pay(Card card){

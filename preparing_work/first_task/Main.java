@@ -11,7 +11,7 @@ import java.util.HashSet;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        boolean mode = false; //определяет режим работы (чтение или запись)
+        boolean mode = true; //определяет режим работы (чтение - true или запись -false)
 
         ArrayList<worker> list = new ArrayList<>();
 
@@ -29,13 +29,16 @@ public class Main {
         }
 
         if(list.size() != 0){
+            //если лист прошел проверку после чтения и записи, то сортируем
             list.sort(Comparator.comparing(worker::calculate_salary, Collections.reverseOrder()).thenComparing(worker::getName));
+            //вывод топ5 и антитоп3
             for (int i = 0; i < 5; i++) {
                 System.out.println(list.get(i).getName());
             }
             for (int i = list.size() - 1; i > list.size() - 4; i--) {
-                System.out.println(list.get(i).getName());
+                System.out.println(list.get(i).getId());
             }
+            //общая статистика и запись в файл
             Main.print_list(list);
             Main.write_file(list);
         }
@@ -75,7 +78,7 @@ public class Main {
                 if(id_list.contains(id)){
                     id+=1;
                 }
-                System.out.print(id_list.toString());
+
                 String name = line.split(" ")[1];
 
                 if(name.length() == 0){
@@ -83,11 +86,11 @@ public class Main {
                 }
                 int status = Integer.parseInt(line.split(" ")[2]);
                 if(status<5000){
-                    System.out.print("hour worker!");
+                    System.out.println("hour worker!");
                     list.add(new hour_worker(id,name,status));
                 }
                 else{
-                    System.out.print("full worker!");
+                    System.out.println("full worker!");
                     list.add(new full_worker(id,name,status));
                 }
                 line = reader.readLine();

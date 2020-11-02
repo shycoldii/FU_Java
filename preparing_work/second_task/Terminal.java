@@ -1,6 +1,9 @@
 package preparing_work.second_task;
 
 public class Terminal {
+    /**
+     * С помощью данного класса происходит вся терминальная проверка и вывод на экран статистики
+     */
     private int num_one;
     private int income;
 
@@ -8,6 +11,7 @@ public class Terminal {
     private int false_passage;
 
     public boolean check_card(Card card){
+        // проверяем вход
         int type = card.getType();
         int check = card.check_status();
         if(check == 1 || check == 10 || check == 11){
@@ -30,6 +34,7 @@ public class Terminal {
         }
     }
     public  void print_info(){
+         //Печатаем статистику на экран
          System.out.println("====================");
          System.out.println("Успешная проходимость: "+this.true_passage);
          System.out.println("Неуспешная проходимость: "+this.false_passage);

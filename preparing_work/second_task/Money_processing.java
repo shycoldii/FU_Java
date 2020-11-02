@@ -6,7 +6,13 @@ import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
 public class Money_processing {
+    /**
+     * Помогает реализовать изменения и чтение данных с карты
+     * @param card - карта
+     * @param info_type - тип запроса (1 - банкомат, 2 - телефон)
+     */
     public static void process(Card card,int info_type) throws InterruptedException {
+        //пополняем карту в зависимости от типа
         Info.info();
 
         if (card.getType() == 1 || card.getType() == 2 || card.getType() == 3){
@@ -79,6 +85,7 @@ public class Money_processing {
         }
     }
     public static void info(Card card,int info_type) throws InterruptedException {
+        //чтение данных с карты
         if(info_type==1){
             System.out.println("Подождите, операция выполняется...");
             TimeUnit.SECONDS.sleep(5);

@@ -15,7 +15,7 @@ public class Main {
         One_pay_Card example_3 = new One_pay_Card(troika,1000,1);
         One_pay_Card example_4 = new One_pay_Card(troika,500,0);
         One_pay_Card example_5 = new One_pay_Card(troika,0,0);
-        //==========================================================================
+        //==========================================================================работа с юзером
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Нажмите 1 для работы с телефоном, 2 - с банкоматом");
@@ -26,7 +26,7 @@ public class Main {
             while(true){
                 System.out.println("Можете посмотреть баланс карты, нажав 1, или пополнить, нажав 2,3-если хотите закончить работу");
                 String ask2 = scanner.next();
-                Mobile_pay mobile_pay = new Mobile_pay(example_2);
+                Mobile_pay mobile_pay = new Mobile_pay(example_4);
                 switch (ask2) {
                     case "1": {
                         mobile_pay.check_card();
@@ -70,11 +70,10 @@ public class Main {
         System.out.println("====================");
         Terminal terminal = new Terminal();
         terminal.check_card(example_1);
-        terminal.check_card(example_5);
         terminal.check_card(example_2);
         terminal.check_card(example_3);
-        terminal.check_card(example_3);
         terminal.check_card(example_4);
+        terminal.check_card(example_5);
         System.out.println("====================");
         terminal.print_info();
     }

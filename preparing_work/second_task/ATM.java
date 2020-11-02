@@ -3,17 +3,17 @@ package preparing_work.second_task;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
-public class Mobile_pay extends Payment{
+public class ATM extends Payment{
     private Card card;
-    Mobile_pay(Card card){
+    ATM(Card card){
         this.card = card;
     }
 
-
     @Override
-    public void top_up_card() {
-        System.out.println("*Пополнение с телефона карты*");
+    public void top_up_card() throws InterruptedException {
+        System.out.println("*Пополнение с банкомата*");
         Info.info();
 
         if (card.getType() == 1 || card.getType() == 2 || card.getType() == 3){
@@ -48,6 +48,8 @@ public class Mobile_pay extends Payment{
                 try{
                     System.out.println("Стоимость пополнения:" + price +".Внесите сумму.");
                     int responce_2 = scanner1.nextInt();
+                    System.out.println("Подождите, операция выполняется...");
+                    TimeUnit.SECONDS.sleep(5);
                     if(responce_2 % price == 0){
                         this.card.increase(1,responce_2 / price);
                     }
@@ -64,13 +66,17 @@ public class Mobile_pay extends Payment{
                 System.out.println("Внесите сумму.");
                 Scanner scanner1 = new Scanner(System.in);
                 int responce_2 = scanner1.nextInt();
+                System.out.println("Подождите, операция выполняется...");
+                TimeUnit.SECONDS.sleep(5);
                 this.card.increase(2,responce_2);
             }
         }
     }
 
     @Override
-    public void check_card() {
+    public void check_card() throws InterruptedException {
+        System.out.println("Подождите, операция выполняется...");
+        TimeUnit.SECONDS.sleep(5);
         Map<Integer,String> dictionary = new HashMap<Integer,String>();
         dictionary.put(1,"Школьная");
         dictionary.put(2,"Студенческая");
@@ -81,3 +87,4 @@ public class Mobile_pay extends Payment{
     }
 
 }
+

@@ -47,6 +47,7 @@ public class One_pay_Card extends Card{
 
     @Override
     public int getInfo() {
+
         System.out.println("Информация: "+getNumber_of_trips()+" поездок,  "+getBalance()+" рублей.");
         if (getNumber_of_trips()!=0){
             return getNumber_of_trips();

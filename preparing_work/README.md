@@ -3,6 +3,19 @@
 <img src="https://sun9-31.userapi.com/FXw4GcBuGzbtm7AaKQw_Kcbx2yGyO4B6XKkJzg/e7v70ItwBpk.jpg" width="600">
 
 <h1> Реализация </h1>
+<h2> Main - запуск файла, worker - родитель, full_worker и hour_worker - потомки со своими реализациями</h2>
+
+Есть два режима: свои данные и анализ "из файла". Примеры обоих:
+
+<img src="https://sun9-5.userapi.com/PqNnueCYSiF5VzHWwa3RuaqcImogbcg9w9ZWNA/OjoXI1w0C_0.jpg"  width="600">
+<h3> Результат сортировок </h3> 
+Примечание: первые строки - это топ5 и анти-топ3, а последний список с общими сведениями - это весь список.
+<img src="https://sun9-26.userapi.com/rek7EWmis3uDGvzi826J3_pHWclZ19ddB3ufaQ/zHe_HPxrOaM.jpg">
+
+<h3> Считаем с файла данные (хоть это и те же данные, так как была запись в файл) </h3>
+<img src="https://sun2-3.userapi.com/b8gUnGJbLZ7hKxzqREMTd0D5om2AEa9cxOLxXQ/YrXiLllbOw4.jpg"  width="400">
+<h3> Результат сортировок </h3> 
+<img src="https://sun9-50.userapi.com/2pAkPKmPMAhj3h-zoBqnDdYuqY2alUwvgaLq8w/PV9QXUIUv5Q.jpg"  width="400">
 
 <h1> Условие second_task </h1>
 

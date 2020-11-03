@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e23d6ea-4f49-4860-bf2f-16e981a099a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/preparing_work/second_task/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/preparing_work/second_task/ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preparing_work/second_task/Mobile_pay.java" beforeDir="false" afterPath="$PROJECT_DIR$/preparing_work/second_task/Mobile_pay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main_rep/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main_rep/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +45,42 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../REST" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="preparing_work.second_task.Main" />
       <module name="main_rep" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="preparing_work.second_task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ControlWork1.Main" />
+      <module name="main_rep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ControlWork1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="control_work_2.Main" />
+      <module name="main_rep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="control_work_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +103,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -108,22 +138,26 @@
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864@62.0.1474.864" timestamp="1604301672981" />
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom" timestamp="1604304188060">
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1604317653552">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1604304188060" />
-    <state width="1431" height="224" key="GridCell.Tab.0.center" timestamp="1604304188059">
+    <state x="580" y="187" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1604317653552" />
+    <state width="1431" height="267" key="GridCell.Tab.0.bottom" timestamp="1604308848151">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1604304188059" />
-    <state width="1431" height="224" key="GridCell.Tab.0.left" timestamp="1604304188059">
+    <state width="1431" height="267" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1604308848151" />
+    <state width="1431" height="267" key="GridCell.Tab.0.center" timestamp="1604308848151">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1604304188059" />
-    <state width="1431" height="224" key="GridCell.Tab.0.right" timestamp="1604304188059">
+    <state width="1431" height="267" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1604308848151" />
+    <state width="1431" height="267" key="GridCell.Tab.0.left" timestamp="1604308848151">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="224" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1604304188059" />
+    <state width="1431" height="267" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1604308848151" />
+    <state width="1431" height="267" key="GridCell.Tab.0.right" timestamp="1604308848151">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="267" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1604308848151" />
     <state width="1431" height="277" key="GridCell.Tab.1.bottom" timestamp="1604304022939">
       <screen x="62" y="0" width="1474" height="864" />
     </state>

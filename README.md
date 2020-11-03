@@ -7,5 +7,6 @@
 + [Работа 4(крестики-нолики, фильтры)](https://github.com/shycoldii/FU_Java/tree/master/fourth)
 + [Подготовка к кр (работники и карты)](https://github.com/shycoldii/FU_Java/tree/master/preparing_work)
 + [Самостоятельная работа (автомобили)](https://github.com/shycoldii/FU_Java/tree/master/ControlWork1)
++ [Контрольная работа(кафе)](https://github.com/shycoldii/FU_Java/tree/master/control_work_2)
 
 <img src=https://upload.wikimedia.org/wikipedia/ru/4/49/%D0%9F%D0%BE%D0%BA%D0%B5%D0%BC%D0%BE%D0%BD_%D0%98%D0%B2%D0%B8.png width="360" height="360" align="right"/>

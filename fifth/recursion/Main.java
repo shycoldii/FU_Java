@@ -39,9 +39,19 @@ public class Main {
           System.out.println("Насколько быстрее  перебор - "+(res1-res2));
 
           System.out.println("Третье задание");
-
+          equation.print_func();
+          System.out.println("Решение уравнения: "+equation.decision(0,10));
           System.out.println("Четвертое задание");
+          binary_tree bt = new binary_tree(new node(1));
+          bt.add(6);
+          bt.add(5);
+          bt.add(4);
+          bt.add(8);
+          bt.add(3);
 
+          System.out.println(bt.containsNode(4));
+          System.out.println(bt.containsNode(2));
+          System.out.println(bt.containsNode(7));
       }
 
 }

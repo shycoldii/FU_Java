@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e23d6ea-4f49-4860-bf2f-16e981a099a3" name="Default Changelist" comment="" />
+    <list default="true" id="5e23d6ea-4f49-4860-bf2f-16e981a099a3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_rep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/main_rep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main_rep/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main_rep/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main_rep/main_rep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main_rep/main_rep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main_rep/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main_rep/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main_rep/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main_rep/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,43 +48,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../REST" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/gson-2.8.6.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Wikipedia">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="preparing_work.second_task.Main" />
+      <option name="MAIN_CLASS_NAME" value="certification2.classwork.work17112020.Task1.Main" />
       <module name="main_rep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="preparing_work.second_task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ControlWork1.Main" />
-      <module name="main_rep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ControlWork1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="control_work_2.Main" />
-      <module name="main_rep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="control_work_2.*" />
+          <option name="PATTERN" value="certification2.classwork.work17112020.Task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +77,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="certification2.classwork.Main" />
+      <option name="MAIN_CLASS_NAME" value="certification2.classwork.work17112020.semaphore.Main" />
       <module name="main_rep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="certification2.classwork.*" />
+          <option name="PATTERN" value="certification2.classwork.work17112020.semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="preparing_work.first_task.Main" />
+    <configuration name="Main (6)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="certification2.homework.wikimedia.Main" />
       <module name="main_rep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="preparing_work.first_task.*" />
+          <option name="PATTERN" value="certification2.homework.wikimedia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +102,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fifth.recursion.Main" />
+    <configuration name="Wikiparser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="certification2.homework.wikimedia.Wikiparser" />
       <module name="main_rep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fifth.recursion.*" />
+          <option name="PATTERN" value="certification2.homework.wikimedia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Wikipedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="certification2.homework.wikimedia.Wikipedia" />
+      <module name="main_rep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="certification2.homework.wikimedia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Wikipedia" />
+        <item itemvalue="Application.Wikiparser" />
+        <item itemvalue="Application.Main (6)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -142,8 +146,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604233204900</updated>
+      <workItem from="1606049495947" duration="127000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -158,53 +166,61 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1605593420578">
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1605599116898">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864@62.0.1474.864" timestamp="1605593420578" />
-    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1604317653552">
+    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/62.0.1474.864@62.0.1474.864" timestamp="1605599116898" />
+    <state x="580" y="187" key="FileChooserDialogImpl" timestamp="1606051401993">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="580" y="187" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1604317653552" />
-    <state width="1431" height="440" key="GridCell.Tab.0.bottom" timestamp="1605593395245">
+    <state x="580" y="187" key="FileChooserDialogImpl/62.0.1474.864@62.0.1474.864" timestamp="1606051401993" />
+    <state width="1431" height="291" key="GridCell.Tab.0.bottom" timestamp="1606674472459">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="440" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1605593395245" />
-    <state width="1431" height="440" key="GridCell.Tab.0.center" timestamp="1605593395245">
+    <state width="1431" height="291" key="GridCell.Tab.0.bottom/62.0.1474.864@62.0.1474.864" timestamp="1606674472459" />
+    <state width="1431" height="291" key="GridCell.Tab.0.center" timestamp="1606674472459">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="440" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1605593395245" />
-    <state width="1431" height="440" key="GridCell.Tab.0.left" timestamp="1605593395245">
+    <state width="1431" height="291" key="GridCell.Tab.0.center/62.0.1474.864@62.0.1474.864" timestamp="1606674472459" />
+    <state width="1431" height="291" key="GridCell.Tab.0.left" timestamp="1606674472458">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="440" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1605593395245" />
-    <state width="1431" height="440" key="GridCell.Tab.0.right" timestamp="1605593395245">
+    <state width="1431" height="291" key="GridCell.Tab.0.left/62.0.1474.864@62.0.1474.864" timestamp="1606674472458" />
+    <state width="1431" height="291" key="GridCell.Tab.0.right" timestamp="1606674472459">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="440" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1605593395245" />
-    <state width="1431" height="169" key="GridCell.Tab.1.bottom" timestamp="1604422107415">
+    <state width="1431" height="291" key="GridCell.Tab.0.right/62.0.1474.864@62.0.1474.864" timestamp="1606674472459" />
+    <state width="1431" height="388" key="GridCell.Tab.1.bottom" timestamp="1606140974607">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="169" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1604422107415" />
-    <state width="1431" height="169" key="GridCell.Tab.1.center" timestamp="1604422107414">
+    <state width="1431" height="388" key="GridCell.Tab.1.bottom/62.0.1474.864@62.0.1474.864" timestamp="1606140974607" />
+    <state width="1431" height="388" key="GridCell.Tab.1.center" timestamp="1606140974607">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="169" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1604422107414" />
-    <state width="1431" height="169" key="GridCell.Tab.1.left" timestamp="1604422107414">
+    <state width="1431" height="388" key="GridCell.Tab.1.center/62.0.1474.864@62.0.1474.864" timestamp="1606140974607" />
+    <state width="1431" height="388" key="GridCell.Tab.1.left" timestamp="1606140974607">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="169" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1604422107414" />
-    <state width="1431" height="169" key="GridCell.Tab.1.right" timestamp="1604422107415">
+    <state width="1431" height="388" key="GridCell.Tab.1.left/62.0.1474.864@62.0.1474.864" timestamp="1606140974607" />
+    <state width="1431" height="388" key="GridCell.Tab.1.right" timestamp="1606140974607">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state width="1431" height="169" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1604422107415" />
+    <state width="1431" height="388" key="GridCell.Tab.1.right/62.0.1474.864@62.0.1474.864" timestamp="1606140974607" />
+    <state x="305" y="14" key="SettingsEditor" timestamp="1606051456608">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="305" y="14" key="SettingsEditor/62.0.1474.864@62.0.1474.864" timestamp="1606051456608" />
+    <state x="555" y="335" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606051455615">
+      <screen x="62" y="0" width="1474" height="864" />
+    </state>
+    <state x="555" y="335" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/62.0.1474.864@62.0.1474.864" timestamp="1606051455615" />
     <state x="456" y="197" key="run.anything.popup" timestamp="1604304906806">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
     <state x="456" y="197" key="run.anything.popup/62.0.1474.864@62.0.1474.864" timestamp="1604304906806" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1604344459976">
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1606113726280">
       <screen x="62" y="0" width="1474" height="864" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1604344459976" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/62.0.1474.864@62.0.1474.864" timestamp="1606113726280" />
   </component>
 </project>

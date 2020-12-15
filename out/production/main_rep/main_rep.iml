@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/first" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/.idea" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/certification2/classwork/work01122020/lesson_spring" />
+      <excludeFolder url="file://$MODULE_DIR$/certification2/homework/hib_test" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

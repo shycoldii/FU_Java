@@ -1,4 +1,4 @@
-package program.controllers;
+package certification3.work150221.java_fx_test.src.program.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;

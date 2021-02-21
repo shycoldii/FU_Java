@@ -1,4 +1,4 @@
-package program;
+package certification3.work150221.java_fx_test.src.program;
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;

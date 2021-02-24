@@ -1,0 +1,19 @@
+.background {
+    -fx-background-color: #455948;
+}
+.label {
+    -fx-text-fill: white;
+}
+.table-view {
+    -fx-base: white;
+    -fx-control-inner-background: white;
+}
+.menu-bar {
+    -fx-background-color: #000000;
+}
+.context-menu {
+    -fx-background-color: derive(#1d1d1d,50%);
+}
+.table-view .column-header {
+    -fx-background-color: black;
+}

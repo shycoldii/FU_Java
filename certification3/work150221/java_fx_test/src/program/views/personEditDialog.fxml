@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="program.controllers.PersonEditingController">
+<AnchorPane prefHeight="300.0" prefWidth="300.0" styleClass="background" stylesheets="@../styles/DarkTheme.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="program.controllers.PersonEditingController">
    <children>
       <GridPane layoutY="3.0" prefHeight="241.0" prefWidth="300.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="10.0">
         <columnConstraints>

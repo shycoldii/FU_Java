@@ -17,13 +17,18 @@ public class Сontroller {
 
     @GetMapping("/get/{id}")
     public ResponseEntity<News> get(@PathVariable Long id) {
-       for(News i: this.list){
-           Long myid = i.getId();
-           if(myid.equals(id)){
-               return new ResponseEntity<>(i,HttpStatus.OK);
-           }
-       }
-        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+      try{
+            for(News i: this.list){
+                Long myid = i.getId();
+                if(myid.equals(id)){
+                    return new ResponseEntity<>(i,HttpStatus.OK);
+                }
+            }
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+        catch(Exception e){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
     }
 
     @PostMapping("/post")

@@ -38,8 +38,13 @@ public class Сontroller {
                                         @RequestParam String text,@RequestParam String category
                                         ) {
 
-        this.list.add(new News(id,title,name,surname,patronymic,date,update,text,category));
-        return new ResponseEntity<>(true,HttpStatus.OK);
+        try{
+            this.list.add(new News(id,title,name,surname,patronymic,date,update,text,category));
+            return new ResponseEntity<>(true,HttpStatus.OK);
+        }
+        catch (Exception e){
+            return new ResponseEntity<>(HttpStatus.NOT_MODIFIED);
+        }
     }
     @DeleteMapping("/delete/{id}")
     ResponseEntity<Boolean> delete(Long id){

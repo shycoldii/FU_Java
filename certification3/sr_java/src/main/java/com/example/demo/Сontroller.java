@@ -48,18 +48,23 @@ public class Сontroller {
     }
     @DeleteMapping("/delete/{id}")
     ResponseEntity<Boolean> delete(Long id){
-        int r = -1;
-        for(News i: this.list){
-            Long myid = i.getId();
-            if(myid.equals(id)){
-                r = this.list.indexOf(i);
+        try{
+            int r = -1;
+            for(News i: this.list){
+                Long myid = i.getId();
+                if(myid.equals(id)){
+                    r = this.list.indexOf(i);
+                }
             }
+            if(r!=-1){
+                this.list.remove(r);
+                return new ResponseEntity<>(true,HttpStatus.OK);
+            }
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-        if(r!=-1){
-            this.list.remove(r);
-            return new ResponseEntity<>(true,HttpStatus.OK);
+        catch(Exception e){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
     @PutMapping("/put")
     ResponseEntity<Boolean> putNews (@RequestParam Long id,@RequestParam String title, @RequestParam String name,
@@ -68,19 +73,24 @@ public class Сontroller {
                                         @RequestParam String text,@RequestParam String category
     ) {
 
-        int r = -1;
-        for(News i: this.list){
-            Long myid = i.getId();
-            if(myid.equals(id)){
-                r = this.list.indexOf(i);
+         try{
+            int r = -1;
+            for(News i: this.list){
+                Long myid = i.getId();
+                if(myid.equals(id)){
+                    r = this.list.indexOf(i);
+                }
             }
+            if(r!=-1){
+                this.list.remove(r);
+                this.list.add(new News(id,title,name,surname,patronymic,date,update,text,category));
+                return new ResponseEntity<>(true,HttpStatus.OK);
+            }
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-        if(r!=-1){
-            this.list.remove(r);
-            this.list.add(new News(id,title,name,surname,patronymic,date,update,text,category));
-            return new ResponseEntity<>(true,HttpStatus.OK);
+        catch (Exception e){
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
-        return new ResponseEntity<>(HttpStatus.NOT_FOUND);
     }
 
 

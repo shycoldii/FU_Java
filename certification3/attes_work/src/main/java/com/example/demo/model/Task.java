@@ -48,7 +48,7 @@ public class Task {
     @Column(name = "modify_date")
     private Date modifyDate;
 
-    @ManyToOne(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+    @ManyToOne(fetch = FetchType.EAGER,cascade = CascadeType.MERGE)
     @JoinColumn(name = "user")
     private User user;
 
@@ -72,7 +72,7 @@ public class Task {
         return status;
     }
 
-    @ManyToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
+    @ManyToMany(fetch = FetchType.EAGER,cascade = CascadeType.MERGE)
     @JoinColumn(name = "category")
     private List<Category> category;
 

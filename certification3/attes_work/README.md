@@ -1,5 +1,10 @@
 <h1> Демонстрация </h1>
 
+<h3> Структура файлов </h3>
+<img src="https://sun9-73.userapi.com/impf/eezrkDHiuVYHbCKgsbGOAmb_OJB56pygGiic_A/vSv5fJQlxIw.jpg?size=337x381&quality=96&sign=dc16ede0022a4cb6653c54f8a88c068a&type=album " width=200>
+
+Примечание: вспомогательные exception для обработки GET-запросов. Три сущности (как по заданию) и три репозитория.
+
 <h3>Пример PUT-запроса для категории:</h3>
 <img src = "https://sun9-22.userapi.com/impf/0WnQOcMFNMh4pIbuAGJO9Nqu7pwwPmFcGt-ebQ/-UuypLseYl4.jpg?size=784x770&quality=96&sign=9e1a439fc20ef2620409e8b23d1bc00a&type=album" width=500>
 <img src = "https://sun9-4.userapi.com/impf/wP-XNWyQn4mepCjZXRb2FW59KKBi8OjidibBfQ/FkzDf2h2Jvg.jpg?size=763x171&quality=96&sign=75a180cae1d298801bf61601b8c3e755&type=album" width=500>

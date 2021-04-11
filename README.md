@@ -27,9 +27,13 @@
 <h3>Аттестация 3</h3>
 <h4> Семинары </h4>
 
++ [Самостоятельная работа](https://github.com/shycoldii/FU_Java/tree/master/certification3/sr_java)
++ [Контрольная работа](https://github.com/shycoldii/FU_Java/tree/master/certification3/attes_work)
+
 <h4> Домашнее </h4>
 
 + [Работа 1(java fx пользовательское меню)](https://github.com/shycoldii/FU_Java/tree/master/certification3/work150221/java_fx_test) 
++ [Trello project](https://github.com/shycoldii/FU_Java/tree/master/certification3/trello)
 
 <img src=https://upload.wikimedia.org/wikipedia/ru/4/49/%D0%9F%D0%BE%D0%BA%D0%B5%D0%BC%D0%BE%D0%BD_%D0%98%D0%B2%D0%B8.png width="360" height="360" align="right"/>
 

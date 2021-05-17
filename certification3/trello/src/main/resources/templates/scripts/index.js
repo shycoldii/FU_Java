@@ -19,15 +19,35 @@ $(document).ready(function (){
             "lastName": $("#secondName").val(),
             "middleName": $("#middleName").val(),
             "login": $("#username").val(),
-            "passwordHash": $("#password").val()
+            "passwordHash": $("#password").val(),
+            "passwordRepeat": $("#passwordRepeat").val()
         };
-        let response = await fetch("http://localhost:8080/trello/user",{
-            method : "POST",
-            headers: {
-                'Content-Type': 'application/json;charset=utf-8'
-            },
-            body: JSON.stringify(varData)
-        });
-        console.log(response);
+        if(varData.passwordRepeat===varData.passwordHash){
+            let response = await fetch("http://localhost:8080/trello/user",{
+                method : "POST",
+                headers: {
+                    'Content-Type': 'application/json;charset=utf-8'
+                },
+                body: JSON.stringify(varData)
+            });
+            if(response.status===200){
+                console.log("sdfg")
+
+
+            }
+            if(response.status === 201){
+                console.log("dfghjkl")
+            }
+            else{
+                console.log("sdfg")
+            }
+
+
+        }
+        else{
+            console.log("Password are incorrect");
+            JSON.stringify(varData)
+        }
+
     });
 })

@@ -29,6 +29,7 @@
 
 + [Самостоятельная работа](https://github.com/shycoldii/FU_Java/tree/master/certification3/sr_java)
 + [Контрольная работа](https://github.com/shycoldii/FU_Java/tree/master/certification3/attes_work)
++ [Тестирование](https://github.com/shycoldii/FU_Java/tree/master/certification3/junit_task)
 
 <h4> Домашнее </h4>
 
